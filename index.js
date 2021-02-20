@@ -7,43 +7,39 @@ inquirer
   .prompt([
     {
       type: "input",
-      message: "what is the title of your project?",
+      message: "what is the title of your project? ",
       name: "title",
     },
     {
       type: "input",
-      message: "Describe your project",
+      message: "Describe your project(add double spaces for line break): ",
       name: "description",
     },
     {
       type: "input",
-      message: "Installation",
+      message: "Installation instructions(add double spaces for line break): ",
       name: "install",
     },
     {
       type: "input",
-      message: "Usage",
+      message: "Usage information: ",
       name: "use",
     },
     {
-      type: "list",
-      message: "License",
-      name: "license",
-      choices: [
-        "I want it simple and permissive.",
-        "I care about sharing improvements.",
-        "No License.",
-      ],
-    },
-    {
       type: "input",
-      message: "Contribution",
+      message: "Contribution(add double spaces for line break):",
       name: "contribution",
     },
     {
       type: "input",
       message: "Tests",
       name: "test",
+    },
+    {
+      type: "list",
+      message: "License",
+      name: "license",
+      choices: ["MIT", "GPL v3", "AGPL", "Express"],
     },
     {
       type: "input",
@@ -57,7 +53,7 @@ inquirer
     },
     {
       type: "input",
-      message: "Additional information on how to reach the user",
+      message: "Instruction on how to reach me:",
       name: "additional_info",
     },
   ])
@@ -90,9 +86,7 @@ ${response.use}
 
 ## License
 
-${response.license}
-//do something depend on the license chooses
-
+![NPM License](https://img.shields.io/npm/l/${response.license})
 
 ## Contributing
 
@@ -107,7 +101,6 @@ ${response.test}
 https://github.com/${response.username}
 
 ${response.email}
-with instruction on how to contact with additional information
 
 ${response.additional_info}
 `,

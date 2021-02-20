@@ -1,44 +1,43 @@
-# README Generator
+
+# Readme generator
 
 ## Project Description
 
-This project uses node to prompt the user with a series of questionaire that the user enter to fill out the README.md file
+description
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [License](#license)
-- [Contribution](#contribution)
-- [Tests](#tests)
-- [Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contribution](#contribution)
+* [Tests](#tests)
+* [Questions](#questions)
 
 ## Installation
 
-npm init ,npm install, npm install inquirer
+1
 
 ## Usage
 
-This project is use to generate a README.md file through a series of questions
+2
 
 ## License
 
-I want it simple and permissive.
-//do something depend on the license chooses
+![NPM License](https://img.shields.io/npm/l/Express)
 
 ## Contributing
 
-None
+3
 
 ## Tests
 
-None
+4
 
 ## Questions
 
 https://github.com/tuanle99
 
-tuanleprofessional@gmail.com  
-with instruction on how to contact with additional information
+tuanhoangle1@gmail.com
 
-You can contact me through my email listed above.
+none
