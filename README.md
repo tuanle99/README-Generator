@@ -1,9 +1,9 @@
 
-# 1
+# README Generator
 
 ## Project Description
 
-2
+This project uses node to prompt the user with a series of questionaire that the user enter to fill out the README.md file
 
 ## Table of Contents
 
@@ -16,24 +16,31 @@
 
 ## Installation
 
-3
+npm init ,npm install, npm install inquirer
 
 ## Usage
 
-4
+This project is use to generate a README.md file through a series of questions
 
 ## License
 
-Private use
+I want it simple and permissive.
+//do something depend on the license chooses
 
-## Contribution
 
-5
+## Contributing
+
+None
 
 ## Tests
 
-6
+None
 
 ## Questions
 
-7
+https://github.com/tuanle99
+
+tuanleprofessional@gmail.com
+with instruction on how to contact with additional information
+
+You can contact me through my email listed above.

@@ -30,10 +30,9 @@ inquirer
       message: "License",
       name: "license",
       choices: [
-        "Commercial user",
-        "Distribution",
-        "Modification",
-        "Private use",
+        "I want it simple and permissive.",
+        "I care about sharing improvements.",
+        "No License.",
       ],
     },
     {
@@ -59,7 +58,7 @@ inquirer
     {
       type: "input",
       message: "Additional information on how to reach the user",
-      name: "additional",
+      name: "additional_info",
     },
   ])
   .then((response) =>
@@ -92,6 +91,8 @@ ${response.use}
 ## License
 
 ${response.license}
+//do something depend on the license chooses
+
 
 ## Contributing
 
@@ -103,11 +104,12 @@ ${response.test}
 
 ## Questions
 
-${response.username}
-Turn this into a github link
+https://github.com/${response.username}
+
 ${response.email}
 with instruction on how to contact with additional information
-${response.additional}
+
+${response.additional_info}
 `,
       (err) =>
         err
