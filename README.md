@@ -1,9 +1,9 @@
 
-# Readme generator
+# README generator
 
 ## Project Description
 
-description
+generate a professional README.md file
 
 ## Table of Contents
 
@@ -16,28 +16,28 @@ description
 
 ## Installation
 
-1
+npm
 
 ## Usage
 
-2
+educational purposes
 
 ## License
 
-![NPM License](https://img.shields.io/npm/l/Express)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 ## Contributing
 
-3
+none  none
 
 ## Tests
 
-4
+none
 
 ## Questions
 
-https://github.com/tuanle99
+https://github.com/tuanle.99
 
 tuanhoangle1@gmail.com
 
-none
+email

@@ -39,7 +39,7 @@ inquirer
       type: "list",
       message: "License",
       name: "license",
-      choices: ["MIT", "GPL v3", "AGPL", "Express"],
+      choices: ["MIT", "GPLv3", "AGPL"],
     },
     {
       type: "input",
@@ -57,7 +57,24 @@ inquirer
       name: "additional_info",
     },
   ])
-  .then((response) =>
+
+  .then((response) => {
+    let license_choice = "";
+    switch (response.license) {
+      case "MIT":
+        license_choice =
+          "[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)";
+        break;
+      case "GPLv3":
+        license_choice =
+          "[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)";
+        break;
+      case "AGPL":
+        license_choice =
+          "[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)";
+        break;
+    }
+
     fs.writeFile(
       `./README.md`,
       `
@@ -86,7 +103,7 @@ ${response.use}
 
 ## License
 
-![NPM License](https://img.shields.io/npm/l/${response.license})
+${license_choice}
 
 ## Contributing
 
@@ -108,5 +125,5 @@ ${response.additional_info}
         err
           ? console.log("There was an error!")
           : console.log("Successfully appended to file!")
-    )
-  );
+    );
+  });
