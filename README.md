@@ -1,4 +1,3 @@
-
 # README Generator
 
 ## Project Description
@@ -7,12 +6,12 @@ This project uses node to prompt the user with a series of questionaire that the
 
 ## Table of Contents
 
-* [Installation](#installation)
-* [Usage](#usage)
-* [License](#license)
-* [Contribution](#contribution)
-* [Tests](#tests)
-* [Questions](#questions)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contribution](#contribution)
+- [Tests](#tests)
+- [Questions](#questions)
 
 ## Installation
 
@@ -27,7 +26,6 @@ This project is use to generate a README.md file through a series of questions
 I want it simple and permissive.
 //do something depend on the license chooses
 
-
 ## Contributing
 
 None
@@ -40,7 +38,7 @@ None
 
 https://github.com/tuanle99
 
-tuanleprofessional@gmail.com
+tuanleprofessional@gmail.com  
 with instruction on how to contact with additional information
 
 You can contact me through my email listed above.
