@@ -59,7 +59,7 @@ function generateMarkdown(data) {
   
   ${data.description}
 
-  ![instructional video](assets/instructions_video.mkv)
+  ![instructional video](assets/instructions_video.mp4)
   
   ## Table of Contents
   
