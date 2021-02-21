@@ -1,10 +1,10 @@
-# README generator
+# README Generator
 
   [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
 
   ## Project Description
   
-  purpose
+  The purpose of this project is to generate a professional README file through a series of questions.
   
   ## Table of Contents
   
@@ -17,27 +17,27 @@
   
   ## Installation
   
-  installation
+  npm install inquirer
   
   ## Usage
   
-  usage
+  To generate a professional README file.
   
   ## Contributing
   
-  contribution
+  None
   
   ## Tests
   
-  tests
+  None
   
   ## Questions
   
-  https://github.com/tuanle99
+  Github: https://github.com/tuanle99
   
-  gmail
+  Email: tuanleprofessional@gmail.com
   
-  none
+  You can reach me through my email above.
 
   ## License
   Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
