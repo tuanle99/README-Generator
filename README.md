@@ -4,14 +4,16 @@
 
   ## Project Description
   
-  The purpose of this project is to generate a professional README file through a series of questions.
+  This project ask the user a series of questions, the input which then use to generate a professional README file.
+
+  ![instructional video](assets/instructions_video.mkv)
   
   ## Table of Contents
   
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contribution](#contribution)
+  * [Contribution](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
@@ -21,7 +23,7 @@
   
   ## Usage
   
-  To generate a professional README file.
+  Create a professional README file for your project.
   
   ## Contributing
   
@@ -37,7 +39,7 @@
   
   Email: tuanleprofessional@gmail.com
   
-  You can reach me through my email above.
+  You can reach me through the email above.
 
   ## License
   Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license

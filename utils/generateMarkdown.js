@@ -58,13 +58,15 @@ function generateMarkdown(data) {
   ## Project Description
   
   ${data.description}
+
+  ![instructional video](assets/instructions_video.mkv)
   
   ## Table of Contents
   
   * [Installation](#installation)
   * [Usage](#usage)
   * [License](#license)
-  * [Contribution](#contribution)
+  * [Contribution](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
   
