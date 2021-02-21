@@ -1,8 +1,10 @@
-# 0
+# README generator
+
+  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://choosealicense.com/licenses/mit/)
 
   ## Project Description
   
-  9
+  purpose
   
   ## Table of Contents
   
@@ -15,29 +17,28 @@
   
   ## Installation
   
-  8
+  installation
   
   ## Usage
   
-  7
-  
-  ## License
-  
-  [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
+  usage
   
   ## Contributing
   
-  6
+  contribution
   
   ## Tests
   
-  5
+  tests
   
   ## Questions
   
-  https://github.com/5
+  https://github.com/tuanle99
   
-  4
+  gmail
   
-  3
+  none
+
+  ## License
+  Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license
 
